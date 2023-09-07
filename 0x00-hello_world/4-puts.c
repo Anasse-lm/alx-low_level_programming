@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-
 /**
  * main - Entry point
  *
- * Description: This is the main function that prints a message to standard output.
+ * Description: This is the main function.
  * 
  * Return: Always 0 (Success)
  */
