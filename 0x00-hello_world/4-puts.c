@@ -3,7 +3,8 @@
 
 /**
  * main - Entry point
- *
+ * Description: This is the main function that
+ *              prints a message to standard output.
  * Return : Always 0 (Success)
  */
 int main(void)
