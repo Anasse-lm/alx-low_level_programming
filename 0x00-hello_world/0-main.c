@@ -8,5 +8,6 @@
  */
 int main(void)
 {
+	printf("advanced task");
 	return (0);
 }
