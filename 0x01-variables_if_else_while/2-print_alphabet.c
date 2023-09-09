@@ -10,7 +10,7 @@
 int main(void)
 {
 	int c;
-	or (c = 'A'; c <= 'Z'; c++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(tolower(c));
 	}
