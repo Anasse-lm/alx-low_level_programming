@@ -11,7 +11,7 @@ int main(void)
 {
 	int c;
 
-	fo(c = 'A'; c <= 'Z'; c++)
+	for(c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(tolower(c));
 	}
