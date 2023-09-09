@@ -10,8 +10,8 @@
 int main(void)
 {
 	int c;
-	
-	for (c = 'A'; c <= 'Z'; c++)
+
+	fo(c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(tolower(c));
 	}
