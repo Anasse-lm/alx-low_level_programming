@@ -1,6 +1,6 @@
 /**
  * _islower - checks if the alphabet is lower
- *
+ *@c: character
  * Description: this is islower function
  *
  * Return: On success 1.
