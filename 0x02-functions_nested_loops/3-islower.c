@@ -1,0 +1,17 @@
+/**
+ * _islower - checks if the alphabet is lower
+ *
+ * Return: success 1.
+ * On error: returns 0.
+ */
+int _islower(int c)
+{
+	if (c > 'a'-1 && c < 'z'+1)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
