@@ -2,9 +2,9 @@
 
 /**
  * reset_to_98: updates the value to 98
- * Description: This is a function to change ns value
  * @n: pointer to int value
  *
+ * Description: This function takes a pointer to an integer as a parameter
  * Return: 1 on success
  * On error: -1
  */
