@@ -15,5 +15,4 @@ void print_rev(char *s)
 	{
 		_putchar(s[len - i - 1]);
 	}
-	_putchar('\n');
 }
