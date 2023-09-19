@@ -4,8 +4,7 @@
  * puts2 - two by two characters
  * @str: string
  *
- * Return: 1 on success
- * On error: -1.
+ * Return: void
  */
 void puts2(char *str)
 {
