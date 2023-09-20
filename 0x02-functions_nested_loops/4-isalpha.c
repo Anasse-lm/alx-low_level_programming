@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check if c is a char or not
- * @c: character 
+ * @c: character
  *
  * Return: 1 if true.
  * On error: return 0.
