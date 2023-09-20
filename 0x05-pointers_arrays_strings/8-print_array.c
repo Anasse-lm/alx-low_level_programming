@@ -12,7 +12,6 @@ void print_array(int *a, int n)
 
 	if (n <= 0)
 	{
-		printf("simple array with wrong lenght\n");
 		return;
 	}
 	for (i = 0; i < n - 1; i++)
