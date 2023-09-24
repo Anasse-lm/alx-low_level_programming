@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * times_table - 9 times table
+ * print_times_table - prints n * n table
+ * @n: number
  * Return: void.
  */
 void print_times_table(int n)
