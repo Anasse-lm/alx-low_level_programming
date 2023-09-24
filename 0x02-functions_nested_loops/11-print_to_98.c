@@ -43,7 +43,6 @@ void print_to_98(int n)
 					_putchar(' ');
 				}
 			}
-			_putchar('\n');
 		}
 		for (i = n; i <= 98; i++)
 		{
