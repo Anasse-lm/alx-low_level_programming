@@ -10,23 +10,31 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int num = 0;
-	int alen = strlen(accept), i, j, found = 0;
+	const char *s_ptr = s;
 
-	for (i = 0; i <= alen; i++)
+	while (*s_ptr != '\0')
 	{
-		for (j = 0; j < alen; j++)
+		const char *accept_ptr = accept;
+		int found = 0;
+	
+		while (*accept_ptr != '\0')
 		{
-			if (s[i] == accept[j])
+			if (*s_ptr == *accept_ptr)
 			{
 				found = 1;
 				break;
 			}
+			accept_ptr++;
 		}
+
 		if (!found)
 		{
 			break;
 		}
 		num++;
+		s_ptr++;
 	}
+
 	return (num);
+
 }
