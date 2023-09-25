@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		const char *accept_ptr = accept;
 		int found = 0;
-	
+
 		while (*accept_ptr != '\0')
 		{
 			if (*s_ptr == *accept_ptr)
@@ -34,7 +34,5 @@ unsigned int _strspn(char *s, char *accept)
 		num++;
 		s_ptr++;
 	}
-
 	return (num);
-
 }
