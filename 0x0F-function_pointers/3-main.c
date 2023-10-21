@@ -16,10 +16,9 @@ int main(int argc, char *argv[])
 		int (*f)(int a, int b);
 
 		f = get_op_func(argv[2]);
-		printf("%s\n",argv[2]);
 		if (f == NULL)
 		{
-			printf("Error99\n");
+			printf("Error\n");
 			return (99);
 		}
 		printf("%d\n",f(num1, num2));
@@ -27,8 +26,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("%d\n",argc);
-		printf("Error98\n");
+		printf("Error\n");
 		return (98);
 	}
 }
