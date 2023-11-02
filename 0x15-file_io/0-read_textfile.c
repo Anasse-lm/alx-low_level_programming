@@ -10,10 +10,15 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	FILE *f = fopen(filename, "r");
+	FILE *f;
 	size_t rchar, wchar;
 	char *text;
 
+	if (filename == NULL)
+	{
+		return (0);
+	}
+	f = fopen(filename, "r");
 	if (f == NULL)
 	{
 		fclose(f);
